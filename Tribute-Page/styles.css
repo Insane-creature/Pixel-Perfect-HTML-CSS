@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 20px;
+  font-family: Arial;
+}
+h3 {
+  font-size: 20px;
+  background-color: #13151f;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+body{
+  background-color: #03050f;
+  color: white;
+  font-family: -apple-system, BlinkMacSy:
+  Ubuntu, Cantarell, "Open Sans"
+  text-align: "center";
+  align: "center";
+}
+.img-container {
+  margin: auto;
+  padding: 30px;
+  background-color: #002;
+  align: center;
+}
+.caption{
+  padding-top: 5px;
+}
+.life{
+  text-align: left;
+  padding: 30px 70px;
+  max-width: 600px;
+  margin:auto;
+  background-color: #002;
+}
+.life-header{
+  font-size: 20px;
+  font-family: Arial;
+  padding: 30px;
+}
+.bold{
+  font-weight: bold;
+}
+li{
+  margin: 20px;
+}
+img-caption {
+ width: 400px;
+}
+image
+{
+ max-width: 100%;
+ height: auto;
+ display:block;
+}
+.quote{
+  margin: 30px 30px 5px;
+  font-style: italic;
+}
+.quote-author{
+  text-indent: 30px;
+}
+a{
+  color: #99f;
+}
+.gandhi-photo{
+  object-fit: contain;
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin:0 auto 30px;
+  margin: auto;
+} 
