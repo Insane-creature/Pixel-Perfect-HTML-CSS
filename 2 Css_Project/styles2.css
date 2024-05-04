@@ -46,4 +46,37 @@ body{
     margin-bottom: 20px;
     width: 100%;
 }
+    
+.box-title{
+    color: #885a2d;
+    font-weight: normal;
+    font-size: 16px;
+} 
+ 
+.order{
+    grid-area: order;
+}
 
+.payment{
+    grid-area: payment;
+}
+
+.total{
+    grid-area: total;
+}
+
+.items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item{
+    border-bottom: 2px solid #DDB892;
+    display: grid;
+
+    padding: 10px;
+
+    
+
+}  
