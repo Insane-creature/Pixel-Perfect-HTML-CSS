@@ -46,7 +46,7 @@ body{
     margin-bottom: 20px;
     width: 100%;
 }
-    
+
 .box-title{
     color: #885a2d;
     font-weight: normal;
@@ -77,6 +77,10 @@ body{
 
     padding: 10px;
 
-    
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: 
+    "quantity title price"
+    "quantity options price";
 
+    row-gap: 8px;
 }  
