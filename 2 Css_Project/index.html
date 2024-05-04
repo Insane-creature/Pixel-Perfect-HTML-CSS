@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee app</title>
+    <link rel = "stylesheet" href = "styles2.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <h1 class="brand">
+            <img 
+                src="coffee_masters_logo.png" 
+                alt="coffee master logo"
+                class = "logo"
+            />
+            Coffee Masters
+        </h1>
+    </nav>
+    <div class="page">
+        <section class="order box">
+            <h2 class="box-title">ITEMS</h2>
+            <ul class="items">
+                <li class="item">
+                    <div class="item-quantity">1x</div>
+                    <div class="item-title">Cappucino</div>
+                    <div class="item-price">$6.00</div>
+                    <ul class="item-options-list">
+                        <li class="item-option">Light foam</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-quantity">1x</div>
+                    <div class="item-title">Cappucino</div>
+                    <div class="item-price">$7.90</div>
+                    <ul class="item-options-list">
+                        <li class="item-option">Almond milk</li>
+                        <li class="item-option">Double Expresso Shot</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-quantity">1x</div>
+                    <div class="item-title">Croisant</div>
+                    <div class="item-price">$5.37</div>
+                    <ul class="item-options-list">
+                        <li class="item-option">Butter</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="payment">
+            <div class="name-box box">
+                <h2 class="box-title">NAME</h2>
+                <div class="input-group">
+                    <label class="user-input-label" for="name">Name for order</label>
+                    <input type="text" class="text-input" id="name" />
+                </div>
+            </div>
+            <div class="cc-box box">
+                <h2 class="box-title">PAYMENT</h2>
+                <div class="input-group">
+                    <label class="user-input-label" for="cc">Card Number</label>
+                    <input type="text" class="text-input" id="cc" />
+                </div>
+                <div class="input-group">
+                    <label class="user-input-label" for="ccv">CCV Number</label>
+                    <input type="text" class="text-input short-input" id="ccv" />
+                </div>
+            </div>
+        </section>
+        <section class="total">
+            <table class="total-table">
+                <tbody>
+                    <tr>
+                        <td>Subtotal:</td>
+                        <td>$19.27</td>
+                    </tr>
+                    <tr>
+                        <td>Tax:</td>
+                        <td>$0.27</td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td>$19.54</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </div>
+</body>
+</html>
