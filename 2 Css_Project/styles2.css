@@ -110,7 +110,6 @@ body{
     margin: 0;
     padding: 0;
     font-size: 14px;
-
 }
 
 .item-option{
@@ -121,6 +120,7 @@ body{
     position: relative;
     display: inline-block;
     border-radius: 25px;
+    color: black;
 
 }
 
@@ -133,6 +133,7 @@ body{
     border-radius: 20px;
     background-color: #eee1d5;
     padding: 10px;
+    color: #5e624f;
 }
 
 .user-input-label{
