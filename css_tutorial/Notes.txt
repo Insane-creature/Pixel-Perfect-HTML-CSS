@@ -1,0 +1,40 @@
+three of styling
+1. tag
+2. id - an ID name must only be used by one HTML element within the page
+3. class - A Class name can be used by multiple HTML elements
+
+# PROPERTIES
+1. Color - font
+2. background - ik
+3. font-family
+4. font-size
+5. text-align
+6. margin - seperation b/w two contents
+7. padding - seperation b/w container and its elements
+8. border - pixel(1px), solid/dotted/dashed, color; --> 5px solid pink;
+9. border-radius
+10. width - 100px/50%
+11. height - height
+12. line-height - spacing b/w two lines
+13. background-image: url(path)
+14. background-position: bottom;
+15. background-repeat: no-repeat
+16. background-size: cover --> to fill image
+17. box-shadow: x-obset, y, blur-radius, color
+18. cursor: pointer --> that changes arrow to hands
+19. overflow: scroll
+20. list-style-type: shows different way to list ul
+21. opacity: transparency of image
+22. display: displays block; two types a. mone b. inline
+
+23. position: absolute position searches for his parent i.e, relative position --> child will take position according to his parent class
+              fixed: it will stay in that fixed position even when scrolling
+              Note: we can add extra position using bottom/right
+
+24. z-index: 1; --> gives priority to one having more z-index value if two are coinciding 
+25. transform: rotate(45deg) 
+             : translateY(150px) --> shifts element in y direction
+
+26. transition: background 3s ease;     --> changes background in 3s 
+27. hover: changes while hovering in element --> element.hover{...}
+28. focus: focuses on some element you choose    --> input:focus{...}
